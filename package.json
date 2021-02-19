@@ -1,10 +1,11 @@
 {
   "name": "kualiChallenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "assignment from Kuali.Co",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd api && node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/GregMash/kualiChallenge#readme",
   "dependencies": {
-    "csvtojson": "^2.0.10"
+    "axios": "^0.21.1",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0"
   }
 }
